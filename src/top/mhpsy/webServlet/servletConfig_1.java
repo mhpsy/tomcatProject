@@ -26,7 +26,7 @@ public class servletConfig_1 extends HttpServlet {
         writer.print("ServletConfig:" + username + "<br>");
         writer.print("ServletContext:" + servletContext.getInitParameter("username") + "<br>");
         writer.print("<h1>" + webUtils.visitCount(servletContext) + "</h1>");
-        writer.print("<h1> servletContext.getContextPath():" + servletContext.getContextPath() + "</h1>");
+        writer.print("<h1> servletCon我就是要试一试中文text.getContextPath():" + servletContext.getContextPath() + "</h1>");
         writer.print("<h1> servletContext.getRealPath(\"/\"):" + servletContext.getRealPath("/") + "</h1>");
         writer.print("<h1> servletContext.getServletContextName():" + servletContext.getServletContextName() + "</h1>");
         writer.print("<h1> servletContext.getServerInfo():" + servletContext.getServerInfo() + "</h1>");
